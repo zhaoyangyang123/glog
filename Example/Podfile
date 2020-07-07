@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'glog_Example' do
+  pod 'glog', :path => '../'
+
+  target 'glog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_glog_Tests {
+  umbrella header "Pods-glog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
